@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B70351E1A5FB798004A5BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70351D1A5FB798004A5BAF /* main.m */; };
+		9B7035211A5FB798004A5BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035201A5FB798004A5BAF /* AppDelegate.m */; };
+		9B7035271A5FB798004A5BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7035251A5FB798004A5BAF /* Main.storyboard */; };
+		9B7035291A5FB798004A5BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7035281A5FB798004A5BAF /* Images.xcassets */; };
+		9B70352C1A5FB798004A5BAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B70352A1A5FB798004A5BAF /* LaunchScreen.xib */; };
+		9B7035381A5FB798004A5BAF /* FreeFilmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035371A5FB798004A5BAF /* FreeFilmsTests.m */; };
+		9B7035431A5FB809004A5BAF /* FilmGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035421A5FB809004A5BAF /* FilmGenre.m */; };
+		9B7035461A5FB875004A5BAF /* HorrorFilmsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035451A5FB875004A5BAF /* HorrorFilmsTableViewController.m */; };
+		9B7035491A5FB8A8004A5BAF /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035481A5FB8A8004A5BAF /* Film.m */; };
+		9B70354C1A5FD3D1004A5BAF /* DramaFilmsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70354B1A5FD3D1004A5BAF /* DramaFilmsTableViewController.m */; };
+		9B70354F1A605789004A5BAF /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70354E1A605789004A5BAF /* customButton.m */; };
+		9B7035521A606EAE004A5BAF /* ActionFilmsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035511A606EAE004A5BAF /* ActionFilmsTableViewController.m */; };
+		9B7035551A606EEE004A5BAF /* Documentaries.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035541A606EEE004A5BAF /* Documentaries.m */; };
+		9B7035581A606F24004A5BAF /* ComedyFilms.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7035571A606F24004A5BAF /* ComedyFilms.m */; };
+		9B70355B1A606F6B004A5BAF /* OtherFilms.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70355A1A606F6B004A5BAF /* OtherFilms.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B7035321A5FB798004A5BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7035101A5FB798004A5BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7035171A5FB798004A5BAF;
+			remoteInfo = FreeFilms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B7035181A5FB798004A5BAF /* FreeFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B70351C1A5FB798004A5BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B70351D1A5FB798004A5BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B70351F1A5FB798004A5BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B7035201A5FB798004A5BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B7035261A5FB798004A5BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B7035281A5FB798004A5BAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B70352B1A5FB798004A5BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B7035311A5FB798004A5BAF /* FreeFilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFilmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7035361A5FB798004A5BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7035371A5FB798004A5BAF /* FreeFilmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeFilmsTests.m; sourceTree = "<group>"; };
+		9B7035411A5FB809004A5BAF /* FilmGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmGenre.h; sourceTree = "<group>"; };
+		9B7035421A5FB809004A5BAF /* FilmGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmGenre.m; sourceTree = "<group>"; };
+		9B7035441A5FB875004A5BAF /* HorrorFilmsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorrorFilmsTableViewController.h; sourceTree = "<group>"; };
+		9B7035451A5FB875004A5BAF /* HorrorFilmsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorrorFilmsTableViewController.m; sourceTree = "<group>"; };
+		9B7035471A5FB8A8004A5BAF /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		9B7035481A5FB8A8004A5BAF /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		9B70354A1A5FD3D1004A5BAF /* DramaFilmsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DramaFilmsTableViewController.h; path = FreeFilms/DramaFilmsTableViewController.h; sourceTree = "<group>"; };
+		9B70354B1A5FD3D1004A5BAF /* DramaFilmsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DramaFilmsTableViewController.m; path = FreeFilms/DramaFilmsTableViewController.m; sourceTree = "<group>"; };
+		9B70354D1A605789004A5BAF /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
+		9B70354E1A605789004A5BAF /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
+		9B7035501A606EAE004A5BAF /* ActionFilmsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionFilmsTableViewController.h; sourceTree = "<group>"; };
+		9B7035511A606EAE004A5BAF /* ActionFilmsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionFilmsTableViewController.m; sourceTree = "<group>"; };
+		9B7035531A606EEE004A5BAF /* Documentaries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Documentaries.h; sourceTree = "<group>"; };
+		9B7035541A606EEE004A5BAF /* Documentaries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Documentaries.m; sourceTree = "<group>"; };
+		9B7035561A606F24004A5BAF /* ComedyFilms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComedyFilms.h; sourceTree = "<group>"; };
+		9B7035571A606F24004A5BAF /* ComedyFilms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComedyFilms.m; sourceTree = "<group>"; };
+		9B7035591A606F6B004A5BAF /* OtherFilms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherFilms.h; path = FreeFilms/OtherFilms.h; sourceTree = "<group>"; };
+		9B70355A1A606F6B004A5BAF /* OtherFilms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherFilms.m; path = FreeFilms/OtherFilms.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7035151A5FB798004A5BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B70352E1A5FB798004A5BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B70350F1A5FB798004A5BAF = {
+			isa = PBXGroup;
+			children = (
+				9B7035501A606EAE004A5BAF /* ActionFilmsTableViewController.h */,
+				9B7035511A606EAE004A5BAF /* ActionFilmsTableViewController.m */,
+				9B7035561A606F24004A5BAF /* ComedyFilms.h */,
+				9B7035571A606F24004A5BAF /* ComedyFilms.m */,
+				9B7035531A606EEE004A5BAF /* Documentaries.h */,
+				9B7035541A606EEE004A5BAF /* Documentaries.m */,
+				9B70354A1A5FD3D1004A5BAF /* DramaFilmsTableViewController.h */,
+				9B70354B1A5FD3D1004A5BAF /* DramaFilmsTableViewController.m */,
+				9B7035441A5FB875004A5BAF /* HorrorFilmsTableViewController.h */,
+				9B7035451A5FB875004A5BAF /* HorrorFilmsTableViewController.m */,
+				9B7035591A606F6B004A5BAF /* OtherFilms.h */,
+				9B70355A1A606F6B004A5BAF /* OtherFilms.m */,
+				9B70351A1A5FB798004A5BAF /* FreeFilms */,
+				9B7035341A5FB798004A5BAF /* FreeFilmsTests */,
+				9B7035191A5FB798004A5BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B7035191A5FB798004A5BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B7035181A5FB798004A5BAF /* FreeFilms.app */,
+				9B7035311A5FB798004A5BAF /* FreeFilmsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B70351A1A5FB798004A5BAF /* FreeFilms */ = {
+			isa = PBXGroup;
+			children = (
+				9B70351F1A5FB798004A5BAF /* AppDelegate.h */,
+				9B7035201A5FB798004A5BAF /* AppDelegate.m */,
+				9B7035251A5FB798004A5BAF /* Main.storyboard */,
+				9B7035471A5FB8A8004A5BAF /* Film.h */,
+				9B7035481A5FB8A8004A5BAF /* Film.m */,
+				9B7035411A5FB809004A5BAF /* FilmGenre.h */,
+				9B7035421A5FB809004A5BAF /* FilmGenre.m */,
+				9B70354D1A605789004A5BAF /* customButton.h */,
+				9B70354E1A605789004A5BAF /* customButton.m */,
+				9B7035281A5FB798004A5BAF /* Images.xcassets */,
+				9B70352A1A5FB798004A5BAF /* LaunchScreen.xib */,
+				9B70351B1A5FB798004A5BAF /* Supporting Files */,
+			);
+			path = FreeFilms;
+			sourceTree = "<group>";
+		};
+		9B70351B1A5FB798004A5BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B70351C1A5FB798004A5BAF /* Info.plist */,
+				9B70351D1A5FB798004A5BAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B7035341A5FB798004A5BAF /* FreeFilmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B7035371A5FB798004A5BAF /* FreeFilmsTests.m */,
+				9B7035351A5FB798004A5BAF /* Supporting Files */,
+			);
+			path = FreeFilmsTests;
+			sourceTree = "<group>";
+		};
+		9B7035351A5FB798004A5BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B7035361A5FB798004A5BAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B7035171A5FB798004A5BAF /* FreeFilms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B70353B1A5FB798004A5BAF /* Build configuration list for PBXNativeTarget "FreeFilms" */;
+			buildPhases = (
+				9B7035141A5FB798004A5BAF /* Sources */,
+				9B7035151A5FB798004A5BAF /* Frameworks */,
+				9B7035161A5FB798004A5BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeFilms;
+			productName = FreeFilms;
+			productReference = 9B7035181A5FB798004A5BAF /* FreeFilms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B7035301A5FB798004A5BAF /* FreeFilmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B70353E1A5FB798004A5BAF /* Build configuration list for PBXNativeTarget "FreeFilmsTests" */;
+			buildPhases = (
+				9B70352D1A5FB798004A5BAF /* Sources */,
+				9B70352E1A5FB798004A5BAF /* Frameworks */,
+				9B70352F1A5FB798004A5BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7035331A5FB798004A5BAF /* PBXTargetDependency */,
+			);
+			name = FreeFilmsTests;
+			productName = FreeFilmsTests;
+			productReference = 9B7035311A5FB798004A5BAF /* FreeFilmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7035101A5FB798004A5BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tyler_Sammons;
+				TargetAttributes = {
+					9B7035171A5FB798004A5BAF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9B7035301A5FB798004A5BAF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9B7035171A5FB798004A5BAF;
+					};
+				};
+			};
+			buildConfigurationList = 9B7035131A5FB798004A5BAF /* Build configuration list for PBXProject "FreeFilms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B70350F1A5FB798004A5BAF;
+			productRefGroup = 9B7035191A5FB798004A5BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B7035171A5FB798004A5BAF /* FreeFilms */,
+				9B7035301A5FB798004A5BAF /* FreeFilmsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B7035161A5FB798004A5BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7035271A5FB798004A5BAF /* Main.storyboard in Resources */,
+				9B70352C1A5FB798004A5BAF /* LaunchScreen.xib in Resources */,
+				9B7035291A5FB798004A5BAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B70352F1A5FB798004A5BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B7035141A5FB798004A5BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B70355B1A606F6B004A5BAF /* OtherFilms.m in Sources */,
+				9B7035211A5FB798004A5BAF /* AppDelegate.m in Sources */,
+				9B70351E1A5FB798004A5BAF /* main.m in Sources */,
+				9B7035461A5FB875004A5BAF /* HorrorFilmsTableViewController.m in Sources */,
+				9B70354C1A5FD3D1004A5BAF /* DramaFilmsTableViewController.m in Sources */,
+				9B70354F1A605789004A5BAF /* customButton.m in Sources */,
+				9B7035431A5FB809004A5BAF /* FilmGenre.m in Sources */,
+				9B7035521A606EAE004A5BAF /* ActionFilmsTableViewController.m in Sources */,
+				9B7035551A606EEE004A5BAF /* Documentaries.m in Sources */,
+				9B7035581A606F24004A5BAF /* ComedyFilms.m in Sources */,
+				9B7035491A5FB8A8004A5BAF /* Film.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B70352D1A5FB798004A5BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7035381A5FB798004A5BAF /* FreeFilmsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B7035331A5FB798004A5BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B7035171A5FB798004A5BAF /* FreeFilms */;
+			targetProxy = 9B7035321A5FB798004A5BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B7035251A5FB798004A5BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7035261A5FB798004A5BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B70352A1A5FB798004A5BAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B70352B1A5FB798004A5BAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B7035391A5FB798004A5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B70353A1A5FB798004A5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B70353C1A5FB798004A5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeFilms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B70353D1A5FB798004A5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeFilms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B70353F1A5FB798004A5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeFilmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFilms.app/FreeFilms";
+			};
+			name = Debug;
+		};
+		9B7035401A5FB798004A5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeFilmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFilms.app/FreeFilms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7035131A5FB798004A5BAF /* Build configuration list for PBXProject "FreeFilms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7035391A5FB798004A5BAF /* Debug */,
+				9B70353A1A5FB798004A5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B70353B1A5FB798004A5BAF /* Build configuration list for PBXNativeTarget "FreeFilms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B70353C1A5FB798004A5BAF /* Debug */,
+				9B70353D1A5FB798004A5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B70353E1A5FB798004A5BAF /* Build configuration list for PBXNativeTarget "FreeFilmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B70353F1A5FB798004A5BAF /* Debug */,
+				9B7035401A5FB798004A5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B7035101A5FB798004A5BAF /* Project object */;
+}
